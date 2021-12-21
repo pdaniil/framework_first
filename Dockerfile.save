@@ -1,0 +1,4 @@
+
+COPY script.sh
+RUN ./scrit.sh
+

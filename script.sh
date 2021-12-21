@@ -1,6 +1,6 @@
 #!/bin/bash
 cat ~/.bashrc | sed 's/^[ \t]*//' > sub_file.txt
-rm log.txt
+echo "start log" > log.txt
 while IFS= read -r line
 do
 if [[ "$line" == "alias"* ]]; then
